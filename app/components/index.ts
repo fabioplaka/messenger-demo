@@ -6,3 +6,4 @@ export * from "./UIDesktopSidebar";
 export * from "./UIDesktopItem";
 export * from "./UIMobileFooter";
 export * from "./UIMobileItem";
+export * from "./UIAvatar";
