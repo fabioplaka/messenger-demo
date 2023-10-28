@@ -6,7 +6,6 @@ export const POST = async (request: Request) => {
   try {
     const currentUser = await getCurrentUser();
     const body = await request.json();
-    console.log("body: ", body);
     const { userId, isGroup, members, name } = body;
 
     if (!currentUser?.id || !currentUser.email)
