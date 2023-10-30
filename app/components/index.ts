@@ -7,3 +7,4 @@ export * from "./UIDesktopItem";
 export * from "./UIMobileFooter";
 export * from "./UIMobileItem";
 export * from "./UIAvatar";
+export * from "./UIModal";

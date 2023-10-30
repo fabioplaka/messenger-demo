@@ -11,7 +11,7 @@ interface UISimpleInputProps {
   required?: boolean;
   register: UseFormRegister<FieldValues>;
   errors: FieldErrors;
-  disabled?: false;
+  disabled?: boolean;
 }
 
 const UISimpleInput: React.FC<UISimpleInputProps> = ({
