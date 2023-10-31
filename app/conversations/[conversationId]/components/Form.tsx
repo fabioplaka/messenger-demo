@@ -8,7 +8,7 @@ import { HiPaperAirplane, HiPhoto } from "react-icons/hi2";
 import MessageInput from "./MessageInput";
 import { CldUploadButton } from "next-cloudinary";
 
-type FormProps = {};
+interface FormProps {}
 
 const Form: React.FC = () => {
   const { conversationId } = useConversation();

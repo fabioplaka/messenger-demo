@@ -5,9 +5,9 @@ import React, { useState } from "react";
 import { Avatar, DesktopItem, SettingsModal } from "..";
 import { User } from "@prisma/client";
 
-type DesktopSidebarProps = {
+interface DesktopSidebarProps {
   currentUser: User | null;
-};
+}
 
 const DesktopSidebar: React.FC<DesktopSidebarProps> = ({ currentUser }) => {
   const routes = useRoutes();

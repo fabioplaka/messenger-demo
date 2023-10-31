@@ -6,10 +6,10 @@ import { useSession } from "next-auth/react";
 import Image from "next/image";
 import React, { useState } from "react";
 
-type MessageBoxProps = {
+interface MessageBoxProps {
   isLast?: boolean;
   data: FullMessageType;
-};
+}
 
 const MessageBox: React.FC<MessageBoxProps> = ({ isLast, data }) => {
   const session = useSession();

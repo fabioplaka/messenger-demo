@@ -10,11 +10,9 @@ import toast from "react-hot-toast";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
-type AuthFormProps = {};
-
 type Variant = "LOGIN" | "REGISTER";
 
-const AuthForm: React.FC = (props: AuthFormProps): JSX.Element => {
+const AuthForm: React.FC = (): JSX.Element => {
   const session = useSession();
   const router = useRouter();
 

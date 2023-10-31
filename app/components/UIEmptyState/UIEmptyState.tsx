@@ -1,6 +1,6 @@
 import React from "react";
 
-type UIEmptyStateProps = {};
+interface UIEmptyStateProps {}
 
 const UIEmptyState: React.FC<UIEmptyStateProps> = ({}): JSX.Element => {
   return (
