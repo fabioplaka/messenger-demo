@@ -9,3 +9,4 @@ export * from "./UIMobileItem";
 export * from "./UIAvatar";
 export * from "./UIModal";
 export * from "./UISelect";
+export * from "./UIActiveStatus";
